@@ -17,10 +17,10 @@ CREATE TABLE customer_phone (
         ON DELETE CASCADE
 );
 
--- ADDRESS (weak entity, owned by customer)
+-- ADDRESS
 CREATE TABLE address (
     customerid INT,
-    addressid  INT,              -- partial key (surrogate, since diagram gives no explicit discriminator)
+    addressid  INT,              
     street     VARCHAR(100),
     city       VARCHAR(50),
     state      VARCHAR(50),
@@ -50,7 +50,7 @@ CREATE TABLE category (
     categoryname VARCHAR(100) NOT NULL
 );
 
--- PRODUCT (sells: seller 1--N product, belongs to: product N--1 category)
+-- PRODUCT 
 CREATE TABLE product (
     productid   INT PRIMARY KEY,
     productname VARCHAR(100) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE delivery (
     deliverydate DATE
 );
 
--- ORDERS (places: customer 1--N order; has: order 1--1 payment, order 1--1 delivery)
+-- ORDERS 
 CREATE TABLE orders (
     orderid     INT PRIMARY KEY,
     orderdate   DATE,
@@ -90,8 +90,7 @@ CREATE TABLE orders (
     FOREIGN KEY (deliveryid) REFERENCES delivery(deliveryid)
 );
 
--- ORDER_ITEM (weak entity, owned by order; contains: order 1--N order_item;
--- refers to: order_item N--1 product)
+-- ORDER_ITEM 
 CREATE TABLE order_item (
     orderid    INT,
     itemno     INT,             -- partial key
