@@ -121,7 +121,7 @@ AND NOT EXISTS
 -- 9. EXPLAIN - INNER JOIN
 
 
-EXPLAIN
+--EXPLAIN
 SELECT
     e.EmpName,
     d.DeptName
@@ -134,7 +134,7 @@ ON e.DeptID = d.DeptID;
 -- 10. EXPLAIN - LEFT JOIN
 
 
-EXPLAIN
+
 SELECT
     d.DeptName,
     e.EmpName
@@ -146,7 +146,7 @@ ON d.DeptID = e.DeptID;
 
 -- 11. EXPLAIN - CORRELATED SUBQUERY
 
-EXPLAIN
+
 SELECT
     e.EmpName,
     e.Salary
@@ -162,7 +162,7 @@ WHERE e.Salary >
 -- 12. EXPLAIN - EXISTS
 
 
-EXPLAIN
+
 SELECT
     e.EmpName
 FROM Employee e
@@ -186,7 +186,7 @@ ON Employee_Project(EmpID);
 
 
 
-EXPLAIN
+
 SELECT
     e.EmpName,
     d.DeptName
