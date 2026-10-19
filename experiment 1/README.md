@@ -1,4 +1,4 @@
-# Experiment 1: 
+# Experiment 1
 # ER Diagram for an Indian E-Commerce Platform
 
 ## Aim

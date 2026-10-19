@@ -20,9 +20,8 @@ Keep each experiment in a separate folder. Example:
 DBMS-Practical/
 ├── README.md
 ├── Experiment-1/
-│   ├── experiment1.sql
 │   ├── er-diagram.png
-│   └── output/
+│   └── er-diagram-hand-drawn.png
 ├── Experiment-2/
 │   ├── experiment2.sql
 │   └── output/

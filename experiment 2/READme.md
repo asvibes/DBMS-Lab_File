@@ -1,4 +1,5 @@
-# Experiment 2: Relational Schema, Constraints, and Referential Integrity
+# Experiment 2
+# Relational Schema, Constraints, and Referential Integrity
 
 ## Aim
 
