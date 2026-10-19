@@ -14,41 +14,46 @@ triggers, normalization, transactions, indexing, and query optimization.
 
 ## Repository Structure
 
-Keep each experiment in a separate folder. Example:
-
-``` text
-DBMS-Practical/
+```text
+DBMS-Lab_File/
 ├── README.md
-├── Experiment-1/
-│   ├── er-diagram.png
-│   └── er-diagram-hand-drawn.png
-├── Experiment-2/
-│   ├── experiment2.sql
-│   └── output/
-├── Experiment-3/
-│   ├── experiment3.sql
-│   └── output/
-├── Experiment-4/
-│   ├── experiment4.sql
-│   └── output/
-├── Experiment-5/
-│   ├── experiment5.sql
-│   └── output/
-├── Experiment-6/
-│   ├── experiment6.sql
-│   └── output/
-├── Experiment-7/
-│   ├── experiment7.sql
-│   └── output/
-├── Experiment-8/
-│   ├── experiment8.sql
-│   └── output/
-├── Experiment-9/
-│   ├── experiment9.sql
-│   └── output/
-└── Experiment-10/
-    ├── experiment10.sql
-    └── output/
+│
+├── experiment 1/
+│   ├── exp 1 handwritten.pdf
+│   ├── Experiment1.png
+│   └── README.md
+│
+├── experiment 2/
+│   ├── exp2.sql
+│   ├── experiment 2 handwritten.pdf
+│   ├── README.md
+│   ├── customer.png
+│   ├── product.png
+│   ├── orders.png
+│   └── ... other screenshots
+│
+├── experiment 3/
+│   ├── practical3dbms.sql
+│   ├── README.md
+│   ├── image.png
+│   ├── image1.png
+│   └── ... other screenshots
+│
+├── experiment 4/
+│   ├── practical4dbms.sql
+│   ├── README.md
+│   └── ... screenshots
+│
+├── experiment 5/
+│   ├── exp5.sql
+│   ├── README.md
+│   └── ... screenshots
+│
+└── experiment 6/
+    ├── exp6.sql
+    ├── README.md
+    ├── image.png
+    └── ... screenshots
 ```
 ------------------------------------------------------------------------
 
