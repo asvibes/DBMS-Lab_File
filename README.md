@@ -51,11 +51,6 @@ DBMS-Practical/
     ├── experiment10.sql
     └── output/
 ```
-
-The `output/` folders may contain screenshots, exported results, EXPLAIN
-plans, and performance measurements, depending on the submission
-requirements.
-
 ------------------------------------------------------------------------
 
 ## List of Experiments
@@ -195,6 +190,22 @@ output, and execution time. - Optimized queries using appropriate
 indexes or query rewrites. - Before-and-after timing and execution-plan
 comparison. - Verification that optimized queries return equivalent
 results.
+
+## Submission Record
+
+
+| Experiment    | Date of Submission |
+| :------------ | :----------------- |
+| Experiment 1  | 24.08.2026         |
+| Experiment 2  | 24.08.2026         |
+| Experiment 3  | 01.10.2026         |
+| Experiment 4  | 01.10.2026         |
+| Experiment 5  | 01.10.2026         |
+| Experiment 6  | 01.10.2026         |
+| Experiment 7  | —                  |
+| Experiment 8  | —                  |
+| Experiment 9  | —                  |
+| Experiment 10 | —                  |
 
 
 
