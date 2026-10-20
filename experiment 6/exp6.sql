@@ -93,7 +93,7 @@ BEGIN
 
 END;
 
-2b. Salary validation on UPDATE (also blocks >50% raise in one go)
+-- 2b. Salary validation on UPDATE (also blocks >50% raise in one go)
 
 CREATE TRIGGER trg_emp_salary_check_update
 
@@ -145,7 +145,7 @@ BEGIN
 
 END;
 
-2d. Audit: department or salary change
+-- 2d. Audit: department or salary change
 
 DROP TRIGGER IF EXISTS trg_emp_audit_update;
 
