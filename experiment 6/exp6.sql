@@ -549,7 +549,7 @@ SELECT emp_id, dept_id FROM employees WHERE emp_id = 101;   -- still dept 2
 
 -----------------------------------------------------
 
-7. VERIFY AUDIT LOG
+-- 7. VERIFY AUDIT LOG
 
 -----------------------------------------------------
 
