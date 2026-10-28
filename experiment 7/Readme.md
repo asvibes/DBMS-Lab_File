@@ -1,8 +1,7 @@
-# Experiment: Database Normalization (UNF to 3NF)
+# Experiment: Database Normalization from UNF to 3NF and BCNF
 
-## Aim
+Given a denormalized Sales table, identify functional dependencies and normalize step-by-step from UNF to 3NF and BCNF. Verify lossless join and dependency preservation using SQL queries.
 
-To normalize a denormalized sales table step-by-step from Unnormalized Form (UNF) to First Normal Form (1NF), and Third Normal Form (3NF) using MySQL. To create related tables, establish primary and foreign key relationships, and verify data reconstruction through joins.
 
 ## Objectives
 
